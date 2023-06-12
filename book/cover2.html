@@ -51,5 +51,22 @@
       </ul>
     </div>
   </section>
+
+  <section class="section">
+    <div id="footerContainer"></div>
+  </section>
+
+
+  <script>
+  // Fetch the footer HTML file
+  fetch('/includes/footer.html')
+    .then(response => response.text())
+    .then(html => {
+      // Insert the footer HTML into the container
+      document.getElementById('footerContainer').innerHTML = html;
+    });
+</script>
+
+
   </body>
 </html>
