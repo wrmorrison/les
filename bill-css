@@ -1,5 +1,5 @@
 .bill-hero {
-   background-image: url('https://wrmorrison.github.io/les/hero-bk2.jpg');
+   background-image: url('https://wrmorrison.github.io/les/book/hero-bk2.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    height: 150px;
