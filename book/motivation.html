@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+<style>
+/*
+.bill-hero {
+  background-image: url('hero-bk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  box-shadow: inset 0 0 0 1000px rgba(0, 128, 0, 0.25);
+  height: 90px;
+}
+*/
+
+.bill-hero {
+   background-image: url('hero-bk2.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 150px;
+}
+
+</style>
+
+  <body>
+    <section class="hero bill-hero">
+    <div class="hero-body">
+      <p class="title">&nbsp;</p>
+      <p class="title">&nbsp;</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content">
+      <h3>Motivation</h3>
+      <p>Why did I invest a decade in researching and writing this particular book? The simple answer is out of dire necessity. As an ecological anthropologist for more than four decades I have engaged in researching, publishing, and teaching about the place of humans in nature, often in historical perspective. This work has been grounded in my university studies in geology and anthropology which encompassed courses in biology, ecology, and environmentalism as well.</p>
+      <p>On the basis of this background and experience I have regrettably come to the sad conclusion that <em>secular approaches</em> to reducing, if not resolving, environmental crises from the local to the global levels are vitally necessary, indeed indispensable, but <em>have proven insufficient</em>. Often they merely treat superficial symptoms rather than underlying causes. Usually they lack the big and long-term picture. This is not to diminish the diverse multitude of positive initiatives implemented since Earth Day on April 22, 1970, only to recognize that collectively they have been insufficient to really turn things around for the better.</p>
+      <p><em>A far more profound re-thinking, re-feeling, and re-visioning of the place of humans in nature is required</em>, if the human species is to survive and flourish, and if the degradation of our home planet Earth is to be halted or at least markedly reduced and a greater degree of ecosanity restored. This far more profound concern and the ensuing action can only come from the application of the collective wisdom of humanity in the form of the rich multitude of diverse religious and spiritual traditions of the world. Fortunately, this is actually happening in a variety of ways and levels as this book demonstrates. The only question is whether this will be enough soon enough in order to avoid the impending global catastrophe for humanity and the biosphere. The trends and patterns of the extreme weather events of recent years throughout the world are a dire warning, and it is likely to get much worse in coming years and decades.</p>
+      <p>The movement I identify as <em>spiritual ecology has foundations that are deep and substantial, its momentum is accelerating and cumulative, and its ramifications and implications are indeed revolutionary</em>. This revolution does not have a single leader and it is not violent. My book is an attempt to sample the intellectual history of this quiet revolution and the far reaching practical consequences and significance of it. As the endorsements from prominent scholars and scientists demonstrate, my view is not by any means idiosyncratic.</p>
+      <p>There is much more than just idealistic hope here. However, only coming decades will reveal whether or not that hope is actually realized with any degree of success, assuming that our species survives that long and honors its self designation as Homo sapiens, the knowing species. I am very pessimistic in the short-term, but guardedly optimistic in the long-term, in light of more than two million years of human biological, cultural, and mental evolution.</p>
+    </div>
+  </section>
+  <div id="footerContainer"></div>
+
+<script>
+// Fetch the footer HTML file
+fetch('https://wrmorrison.github.io/les/includes/footer.html')
+  .then(response => response.text())
+  .then(html => {
+    // Insert the footer HTML into the container
+    document.getElementById('footerContainer').innerHTML = html;
+  });
+</script>
+
+
+</body>
+</html>
