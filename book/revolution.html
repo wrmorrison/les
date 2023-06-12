@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Fetch the footer HTML file
+  fetch('https://wrmorrison.github.io/les/includes/footer.html')
+    .then(response => response.text())
+    .then(html => {
+      // Insert the footer HTML into the container
+      document.getElementById('footerContainer').innerHTML = html;
+    });
+
+  // Fetch the hero HTML file
+  fetch('https://wrmorrison.github.io/les/includes/hero.html')
+    .then(response => response.text())
+    .then(html => {
+      // Insert the hero HTML into the container
+      document.getElementById('heroContainer').innerHTML = html;
+    });
+});
+</script>
   </head>
 <style>
 /*
@@ -120,25 +139,5 @@
     </div>
   </section>
   <div id="footerContainer"></div>
-
-  <script>
-  // Fetch the footer HTML file
-  fetch('https://wrmorrison.github.io/les/includes/footer.html')
-    .then(response => response.text())
-    .then(html => {
-      // Insert the footer HTML into the container
-      document.getElementById('footerContainer').innerHTML = html;
-    });
-
-  // Fetch the hero HTML file
-  fetch('https://wrmorrison.github.io/les/includes/hero.html')
-    .then(response => response.text())
-    .then(html => {
-      // Insert the hero HTML into the container
-      document.getElementById('heroContainer').innerHTML = html;
-    });
-  </script>
-
-
 </body>
 </html>
