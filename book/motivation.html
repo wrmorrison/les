@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <link rel="stylesheet" href="https://wrmorrison.github.io/les/bill-css.css">
 <script src="https://wrmorrison.github.io/les/includes.js"></script>
+<script src="https://wrmorrison.github.io/les/bulma-js"></script>
+<script>
+  bulmaJS.init();
+</script>
 </head>
 
 <body>
@@ -25,27 +29,5 @@
 </section>
 
 <div id="footerContainer"><!--This is a comment--></div>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Get all "navbar-burger" elements
-  const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-  // Check if there are any navbar burgers
-  if (navbarBurgers.length > 0) {
-    // Add a click event listener to each burger
-    navbarBurgers.forEach(function(navbarBurger) {
-      navbarBurger.addEventListener('click', function() {
-        // Get the target from the "data-target" attribute
-        const target = navbarBurger.dataset.target;
-        const targetElement = document.getElementById(target);
-
-        // Toggle the "is-active" class on both the burger and the target menu
-        navbarBurger.classList.toggle('is-active');
-        targetElement.classList.toggle('is-active');
-      });
-    });
-  }
-});
-</script>
 </body>
 </html>
