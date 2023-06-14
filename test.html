@@ -7,16 +7,86 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   </head>
   <body>
-
-    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <section class="section" style="padding: 1rem 3rem;">
+        <div class="container content">
+        
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/">
+        <img src="https://wrmorrison.github.io/les/images/logo_SE1.png" width="195" height="52">
+        </a>
+        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
-      </a>
-      
-      <div class="navbar-menu" id="navMenu">
-        <!-- navbar-start, navbar-end... -->
-      </div>
+        </a>
+        </div>
+        
+        <div class="navbar-menu">
+        <div class="navbar-end">
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+        About the Book
+        </a>
+        
+        <div class="navbar-dropdown">
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/publishers-description.html">Publisher&rsquo;s Description</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/table-of-contents.html">Table of Contents</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/cover.html">About the Cover</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/motivation.html">Motivation</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/revolution.html">Revolution</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/endorsements.html">Endorsements</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/quotes.html">Quotes</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/reviews.html">Reviews</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/book/citations.html">Citations</a>
+        <hr class="navbar-divider">
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/downloads/SE_WordMap.pdf">Word Map of Spiritual Ecology</a>
+        </div>
+        </div>
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+        About the Author
+        </a>
+        
+        <div class="navbar-dropdown">
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/author/biographical-sketch.html">Biographical Sketch</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/author/related-publications.html">Related Publications</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/author/cover.html">Curriculum Vitae</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/author/intellectual-journey.html">Intellectual Journey</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/author/revolution.html">Websites</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/author/endorsements.html">Events</a>
+        </div>
+        </div>
+        
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+        Supplemental Information
+        </a>
+        
+        <div class="navbar-dropdown">
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/biographical-sketch.html">Resource Guide</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/related-publications.html">Bibliography</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/cover.html">Course Syllabus and Resource Guide</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/motivation.html">Films</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/revolution.html">Programs</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/endorsements.html">New</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/endorsements.html">Spiritual Ecology in Brief</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/endorsements.html">Spiritual Ecology in AnthroNews</a>
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/supplemental-information/endorsements.html">Research Notes</a>
+        </div>
+        </div>
+        
+        <a class="navbar-item" href="https://wrmorrison.github.io/les/rise.html">R.I.S.E.</a>
+        </div>
+        
+        </div>
+        </nav>
+        </div>
+        </section>
         
   <section class="section">
     <div class="container">
@@ -28,6 +98,28 @@
       </p>
     </div>
   </section>
-  <script src="https://wrmorrison.github.io/les/nav-toggle.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+  el.addEventListener('click', () => {
+
+    // Get the target from the "data-target" attribute
+    const target = el.dataset.target;
+    const $target = document.getElementById(target);
+
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    el.classList.toggle('is-active');
+    $target.classList.toggle('is-active');
+
+  });
+});
+
+});
+  </script>
   </body>
 </html>
