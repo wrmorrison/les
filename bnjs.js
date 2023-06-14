@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(response => response.text())
     .then(html => {
       // Insert the bannernav HTML into the container
-      document.getElementById('bannernav').innerHTML = html;
+      document.getElementById('bannernavContainer').innerHTML = html;
 
       // Apply the JavaScript logic to the elements within bannernav.html
 
@@ -52,6 +52,22 @@ document.addEventListener('DOMContentLoaded', function () {
           });
         });
       }
+    });
+
+  // Fetch the hero HTML file
+  fetch('https://wrmorrison.github.io/les/includes/hero.html')
+    .then(response => response.text())
+    .then(html => {
+      // Insert the hero HTML into the container
+      document.getElementById('heroContainer').innerHTML = html;
+    });
+
+  // Fetch the footer HTML file
+  fetch('https://wrmorrison.github.io/les/includes/footer.html')
+    .then(response => response.text())
+    .then(html => {
+      // Insert the footer HTML into the container
+      document.getElementById('footerContainer').innerHTML = html;
     });
 });
 
