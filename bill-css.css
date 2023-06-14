@@ -12,6 +12,6 @@
    background-color: #f9f9f9;
 }
 
-.imgbrd {border: 1px solid #626262;}
+.imgbrd {margin-top:1em; border: 1px solid #626262;}
 
 .billsmall {font-size: .5em;}
