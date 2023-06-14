@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
   // Fetch the bannernav HTML file
-  fetch('https://wrmorrison.github.io/les/includes/bannernav.html')
+  fetch('https://wrmorrison.github.io/les/includes/bn.html')
     .then(response => response.text())
     .then(html => {
       // Insert the bannernav HTML into the container
