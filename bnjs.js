@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(response => response.text())
     .then(html => {
       // Insert the bannernav HTML into the container
-      document.getElementById('bannernavContainer').innerHTML = html;
+      document.getElementById('bannernav').innerHTML = html;
 
       // Apply the JavaScript logic to the elements within bannernav.html
 
