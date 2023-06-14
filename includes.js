@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
+  // Fetch the bn HTML file
+  fetch('https://wrmorrison.github.io/les/includes/bn.html')
+  .then(response => response.text())
+  .then(html => {
+    // Insert the bannernav HTML into the container
+    document.getElementById('bn').innerHTML = html;
+  });
+ 
   // Fetch the bannernav HTML file
   fetch('https://wrmorrison.github.io/les/includes/bannernav.html')
   .then(response => response.text())
