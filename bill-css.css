@@ -20,7 +20,7 @@ box-shadow: 0 6px 3px -3px gray;
 background-color: #f9f9f9;
 }
 
-.imgbrd {px solid #626262;}
+.imgbrd {border: 1px solid #626262;}
 
 .imgcap {font-size: .85em; margin-bottom:33px!important;}
 
