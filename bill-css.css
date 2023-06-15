@@ -32,7 +32,7 @@ background-color: #f9f9f9;
 span.se {font-size: 1.4em;}
 }
 
-@media (min-width: 769px) and (max-width: 1099) {
+@media (min-width: 769px) and (max-width: 1099px) {
 span.se {font-size: 1.2em;}
 }
 
