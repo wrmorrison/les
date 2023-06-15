@@ -1,6 +1,6 @@
 .bn {
 background-color: #f9f9f9;
-padding: 21px 33px;
+padding: 1rem 3rem;
 }
 
 .navbar{
@@ -28,12 +28,12 @@ background-color: #f9f9f9;
 .billsmall {font-size: .5em;}
 
 span.se {
-   font-size: 1.1em;
+   font-size: 1.4em;
  }
  
  /* Media query for mobile devices */
  @media (max-width: 767px) {
    span.se {
-     font-size: .8em;
+     font-size: .9em;
    }
  }
