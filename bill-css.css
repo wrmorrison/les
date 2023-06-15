@@ -28,10 +28,14 @@ background-color: #f9f9f9;
 .billsmall {font-size: .5em;}
 
 
-@media (min-width: 769px) {
-   span.se {font-size: 1.4em;}
+@media (min-width: 1000px) {
+span.se {font-size: 1.4em;}
 }
 
- @media (max-width: 768px) {
-   span.se {font-size: 1.1em;}
+@media (min-width: 769px) and (max-width: 999px) {
+span.se {font-size: 1.2em;}
+}
+
+@media (max-width: 768px) {
+span.se {font-size: 1.1em;}
 }
