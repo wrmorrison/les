@@ -28,12 +28,12 @@ background-color: #f9f9f9;
 .billsmall {font-size: .5em;}
 
 span.se {
-   font-size: 2em;
+   font-size: 1.1em;
  }
  
  /* Media query for mobile devices */
  @media (max-width: 767px) {
    span.se {
-     font-size: 1em;
+     font-size: .8em;
    }
  }
