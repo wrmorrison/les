@@ -23,3 +23,7 @@ background-color: #f9f9f9;
 .imgcap {font-size: .85em; margin-bottom:33px!important;}
 
 .billsmall {font-size: .5em;}
+
+@media (min-width: 769px) {
+   .bn {padding: 1rem 3rem;}
+ }
