@@ -1,3 +1,8 @@
+body {
+background-image: url('https://wrmorrison.github.io/les/images/bk.jpg');
+background-repeat: repeat-y;
+}
+
 .navbar {
 background-color: transparent;
 background-image: none;}
