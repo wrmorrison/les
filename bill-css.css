@@ -5,6 +5,8 @@ background-position: center;
 background-color: #53821d;
 }
 
+h1,h2,h3 {color: #407521 !important;}
+
 .navbar {
 background-color: transparent;
 background-image: none;}
