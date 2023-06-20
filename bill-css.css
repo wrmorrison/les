@@ -27,7 +27,11 @@ margin-top: 10em;
 margin-bottom: 10em;
 }
 
-.section {background-color: white;}
+.section {
+background-image: url('https://wrmorrison.github.io/les/images/bk.png');
+background-repeat: repeat-y;
+background-position: center;
+}
 
 .imgbrd {border: 1px solid #626262;}
 
