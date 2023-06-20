@@ -26,6 +26,7 @@ box-shadow: 0 6px 3px -3px rgba(0, 0, 0, 0.25);
 .bill-footer {
 border-top: 15px solid #bcbcbc;
 background-color: #f9f9f9;
+margin-top: 10em;
 }
 
 .imgbrd {border: 1px solid #626262;}
