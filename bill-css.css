@@ -1,4 +1,7 @@
 body {
+background-image: url('/les/images/bk.png');
+background-repeat: repeat-y;
+background-position: center;
 background-color: #53821d;
 }
 
@@ -11,7 +14,7 @@ min-height: 8rem;
 }
 
 .bill-hero {
-background-image: url('https://wrmorrison.github.io/les/images/hero-bk2.jpg');
+background-image: url('les/images/hero-bk2.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 height: 150px;
@@ -23,14 +26,6 @@ box-shadow: 0 6px 3px -3px rgba(0, 0, 0, 0.25);
 .bill-footer {
 border-top: 15px solid #bcbcbc;
 background-color: #f9f9f9;
-margin-top: 10em;
-margin-bottom: 10em;
-}
-
-.section {
-background-image: url('https://wrmorrison.github.io/les/images/bk.png');
-background-repeat: repeat-y;
-background-position: center;
 }
 
 .imgbrd {border: 1px solid #626262;}
