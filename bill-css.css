@@ -27,6 +27,8 @@ margin-top: 10em;
 margin-bottom: 10em;
 }
 
+.section {background-color: white;}
+
 .imgbrd {border: 1px solid #626262;}
 
 .imgcap {font-size: .85em; margin-bottom:33px!important;}
