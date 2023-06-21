@@ -6,14 +6,12 @@ background-color: #53821d;
 }
 
 h1,h2,h3 {
-    color: #407521 !important;
-    font-family: serif;
-    font-size: .9em;
+color: #407521 !important;
+font-size: .9em;
 }
 
 p,li {
-    color: #407521 !important;
-    font-family: serif;
+font-family: serif;
 }
 
 .navbar {
@@ -48,12 +46,14 @@ background-color: #f9f9f9;
 .billsmall {font-size: .5em;}
 
 .push {padding-bottom: 210px;}
+
 .push2 {padding-bottom: 333px;}
+
 .ft {
-    font-size: 1.2em;
-    border-bottom: 3px solid white;
-    padding-bottom: 6px;
-    margin-bottom: 6px;
+font-size: 1.2em;
+border-bottom: 3px solid white;
+padding-bottom: 6px;
+margin-bottom: 6px;
 }
 
 .hpush {padding: 15px 0;}
