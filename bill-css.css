@@ -7,7 +7,7 @@ background-color: #53821d;
 
 h1,h2,h3 {
 color: #465417 !important;
-font-size: .9em;
+font-size: .9em !important;
 }
 
 p,li {
