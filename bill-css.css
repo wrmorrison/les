@@ -5,7 +5,9 @@ background-position: center;
 background-color: #53821d;
 }
 
-h1,h2,h3 {color: #407521 !important;font-family: serif;}
+h1,h2,h3 {color: #407521 !important;}
+
+p,li {font-family: serif;}
 
 .navbar {
 background-color: transparent;
