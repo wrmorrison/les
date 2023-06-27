@@ -16,6 +16,7 @@ font-size: 1.1em;
 }
 
 .navbar {
+border-top:6px solid #ccc;
 background-color: transparent;
 background-image: none;}
 
