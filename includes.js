@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
   // Fetch the bannernav HTML file
-  fetch('https://wrmorrison.github.io/les/includes/bannernav.html')
+  fetch('/includes/bannernav.html')
     .then(response => response.text())
     .then(html => {
       // Insert the bannernav HTML into the container
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
   // Fetch the hero HTML file
-  fetch('https://wrmorrison.github.io/les/includes/hero.html')
+  fetch('/includes/hero.html')
     .then(response => response.text())
     .then(html => {
       // Insert the hero HTML into the container
