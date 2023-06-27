@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
   // Fetch the footer HTML file
-  fetch('https://wrmorrison.github.io/les/includes/footer.html')
+  fetch('/includes/footer.html')
     .then(response => response.text())
     .then(html => {
       // Insert the footer HTML into the container
