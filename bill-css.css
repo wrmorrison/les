@@ -25,7 +25,7 @@ background-image: none;}
 .navbar .navbar-burger {
 min-height: 8rem;
 }
-
+/* 
 .bill-hero {
 background-image: url('/images/hero.jpg');
 background-repeat: no-repeat;
@@ -34,7 +34,7 @@ height: 150px;
 border-top: 1px solid rgb(112, 112, 112);
 border-bottom: 1px solid rgb(112, 112, 112);
 box-shadow: 0 6px 3px -3px rgba(0, 0, 0, 0.25);
-}
+}*/
 
 .bill-footer {
 border-top: 9px solid #bcbcbc;
