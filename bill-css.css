@@ -57,6 +57,11 @@ text-align: center;
   }
 */
 
+.section {
+    padding: 1em;
+    background-color: red;
+}
+
 @media (min-width: 1024px) {
     .container {
       max-width: 900px; /* Adjust this value to your desired width */
