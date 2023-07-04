@@ -44,9 +44,12 @@ box-shadow: 0 6px 3px -3px rgba(0, 0, 0, 0.25);
 .bill-footer {
 border-top: 9px solid #bcbcbc;
 background-color: #f9f9f9;
+padding:3em 0;
 }
 
-.bill-footer p {padding:3em 0;text-align: center;}
+.bill-footer p {
+text-align: center;
+}
 
 @media (min-width: 1024px) {
     .container {
