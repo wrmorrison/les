@@ -61,6 +61,8 @@ text-align: center;
 .section {
     padding: 0;
     background-color: #53821d;
+    background-image: url('/images/bodybk.png');
+    background-repeat: repeat;
 }
 
 
