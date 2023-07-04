@@ -50,16 +50,15 @@ padding:3em 0;
 .bill-footer p {
 text-align: center;
 }
-/* 
+
 .container {
-    padding: 1em;
-    background-color: red;
+    padding: 2em 1em;
+    background-color: white;
   }
-*/
+
 
 .section {
-    padding: 1em;
-    background-color: red;
+    padding: 0;
 }
 
 @media (min-width: 1024px) {
