@@ -48,6 +48,12 @@ background-color: #f9f9f9;
 
 .bill-footer p {padding:3em 0;text-align: center;}
 
+@media (min-width: 1024px) {
+    .container {
+      max-width: 900px; /* Adjust this value to your desired width */
+    }
+  }
+
 .imgbrd {border: 1px solid #626262;}
 
 .imgcap {font-size: .95em; margin-bottom:33px!important;}
