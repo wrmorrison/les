@@ -59,6 +59,7 @@ text-align: center;
 
 .section {
     padding: 0;
+    background-color: #53821d;
 }
 
 @media (min-width: 1024px) {
