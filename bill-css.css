@@ -51,6 +51,12 @@ padding:3em 0;
 text-align: center;
 }
 
+.container {
+    padding: 1em;
+    background-color: red;
+  }
+
+
 @media (min-width: 1024px) {
     .container {
       max-width: 900px; /* Adjust this value to your desired width */
