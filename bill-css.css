@@ -62,11 +62,6 @@ text-align: center;
     background-color: #53821d;
 }
 
-@media (min-width: 1024px) {
-    .container {
-      max-width: 900px; /* Adjust this value to your desired width */
-    }
-  }
 
 .imgbrd {border: 1px solid #626262;}
 
