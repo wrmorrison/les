@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
   // Fetch the bannernav HTML file
-  fetch('/includes/bannernav.html')
+  fetch('includes/bannernav.html')
     .then(response => response.text())
     .then(html => {
       // Insert the bannernav HTML into the container
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
   // Fetch the hero HTML file
-  fetch('/includes/hero.html')
+  fetch('includes/hero.html')
     .then(response => response.text())
     .then(html => {
       // Insert the hero HTML into the container
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
   // Fetch the footer HTML file
-  fetch('/includes/footer.html')
+  fetch('includes/footer.html')
     .then(response => response.text())
     .then(html => {
       // Insert the footer HTML into the container
